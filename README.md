@@ -1,3 +1,8 @@
+# JSON
+JSON is a syntax for storing and exchanging data, written with JavaScript object notation.
+
+This case study demonstrates several JSON files with various complexities.
+
 Represents the weather forecast for one day.
 
 | Element | Description | Type | Notes |
@@ -22,7 +27,7 @@ Represents the weather forecast for one day.
 Represents the weather forecast for multiple days.
 
 | Element | Description | Type | Notes |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | longitude | Longitude of the location where the forecast takes place | number |  |
 | latitude | Latitude of the location where the forecast takes place | number |  |
 | forecast | Daily forecast | array of daily forecast objects |  |
@@ -90,5 +95,9 @@ Represents a request for a meeting in a calendar.
   }
 }
 ```
+
+## References
+* https://www.w3schools.com/js/js_json_intro.asp
+* https://www.tutorialspoint.com/json/index.htm
 
 
